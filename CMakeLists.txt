@@ -13,7 +13,7 @@ endif()
 
 option(MODBUS_EXAMPLE "Build example program" OFF)
 option(MODBUS_TESTS "Build tests" OFF)
-option(MODBUS_TCP_COMMUNICATION "Use Modbus TCP communication library" ON)
+option(MODBUS_TCP_COMMUNICATION "Use Modbus TCP communication library" OFF)
 
 if(NOT win32)
     # Serial not supported on Windows
